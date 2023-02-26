@@ -1,20 +1,20 @@
-## Descripción 📑
+## Description 📑
 
-Proyecto de Video Juego.
-Creado con HTML, CSS y JavaScript.
+Video Game Project.
+Created with HTML, CSS and JavaScript.
 
-## Autor ✒️
+## Author ✒️
 **Ricardo Perea**
 
 * [LinkedIn](https://www.linkedin.com/in/ricardo-perea/)
 
 
-## Vista previa del proyecto
-Si quieres hechar un vistazo al proyecto, te recomiendo:
+## Project preview
+If you want to take a look at the project, I recommend you:
 
 https://ricardoperea.github.io/Insect-Game/
 
-## Instalación 
-Este proyecto no necesita de instalación, simplemente haz click en el enlace de arriba y seras dirigido al sitio.
+## Installation 
+This project does not require installation, just click on the link above and you will be directed to the site.
 
-## Si quieres contratarme puedes escribirme a: aztro812@hotmail.com para consultas.
+## If you want to hire me you can write me at: aztro812@hotmail.com for inquiries.
