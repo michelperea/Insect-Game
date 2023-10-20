@@ -3,63 +3,66 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Enlace al archivo CSS que se aplicará al juego -->
     <link rel="stylesheet" href="style.css" />
     <title>Catch The Insect</title>
   </head>
   <body>
+    <!-- Primera pantalla de inicio del juego -->
     <div class="screen">
       <h1>Catch The Insect</h1>
       <button class="btn" id="start-btn">Play Game</button>
     </div>
 
+    <!-- Segunda pantalla para seleccionar el insecto favorito -->
     <div class="screen">
       <h1>What is your "favorite" insect?</h1>
       <ul class="insects-list">
+        <!-- Opciones para elegir diferentes insectos -->
         <li>
           <button class="choose-insect-btn">
             <p>Fly</p>
+            <!-- Imagen de una mosca con su descripción -->
             <img src="http://pngimg.com/uploads/fly/fly_PNG3946.png" alt="fly">
           </button>
         </li>
         <li>
           <button class="choose-insect-btn">
             <p>Mosquito</p>
-            <img
-               src="http://pngimg.com/uploads/mosquito/mosquito_PNG18175.png"
-               alt="mosquito"
-               />
+            <!-- Imagen de un mosquito con su descripción -->
+            <img src="http://pngimg.com/uploads/mosquito/mosquito_PNG18175.png" alt="mosquito" />
           </button>
         </li>
         <li>
           <button class="choose-insect-btn">
             <p>Spider</p>
-            <img
-               src="http://pngimg.com/uploads/spider/spider_PNG12.png"
-               alt="spider"
-               />
+            <!-- Imagen de una araña con su descripción -->
+            <img src="http://pngimg.com/uploads/spider/spider_PNG12.png" alt="spider" />
           </button>
         </li>
         <li>
           <button class="choose-insect-btn">
             <p>Roach</p>
-            <img
-               src="http://pngimg.com/uploads/roach/roach_PNG12163.png"
-               alt="roach"
-               />
+            <!-- Imagen de una cucaracha con su descripción -->
+            <img src="http://pngimg.com/uploads/roach/roach_PNG12163.png" alt="roach" />
           </button>
         </li>
       </ul>
     </div>
 
+    <!-- Tercera pantalla, la pantalla principal del juego -->
     <div class="screen game-container" id="game-container">
+      <!-- Elementos para mostrar el tiempo transcurrido y la puntuación -->
       <h3 id="time" class="time">Time: 00:00</h3>
       <h3 id="score" class="score">Score: 0</h3>
+      <!-- Mensaje de juego si se alcanza una puntuación alta -->
       <h5 id="message" class="message">
         Are you annoyed yet? <br>
         You are playing an impossible game!!
       </h5>
     </div>
 
+    <!-- Se carga el script JavaScript necesario para el funcionamiento del juego -->
     <script src="script.js"></script>
   </body>
 </html>
